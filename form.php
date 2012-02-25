@@ -30,7 +30,7 @@ $form = <<<EOD
 		<label for="warn">Do you want to let the receiver know there is a secret?:</label> 
 		<input type="checkbox" name="warn" />
 
-		<label for="remind">Remind me 30 days before the release date?</label> 
+		<label for="remind">Remind me 30 days before the release date? (handy if you might change your mind or need a postponement)</label> 
 		<input type="checkbox" name="remind" />
 		
 		<label for="website">Public URL for this secret? (only works after release date):</label> 

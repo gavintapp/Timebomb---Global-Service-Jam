@@ -8,6 +8,7 @@ Desc: This is the header file included when each front end page is loaded. I loa
 
 */
 
+
 ?>
 
 
@@ -47,6 +48,6 @@ Desc: This is the header file included when each front end page is loaded. I loa
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-<h1>Timebomb</h1>
+<h1><a href="/">Timebomb</a></h1>
   </header>
 
