@@ -12,8 +12,8 @@ if ($_GET){
 	$notify = $_GET['email'];
 	$release_date = $_GET['date'];
 	$website = $_GET['website'];
-	$warn = $_GET['warn'];
-	$remind = $_GET['remind'];
+	if (isset($_GET['warn'])) {$warn = $_GET['warn'];} else {$warn = "";}
+	if (isset($_GET['remind'])) {$remind = $_GET['remind'];} else {$remind = "";}
 	
 	$insert_query = "insert into secrets (secret,notify,release_date, website, warn, remind) values ('".$secret."','".$notify."','".$release_date."','".$website."','".$warn."','".$remind."')";
 	
@@ -32,7 +32,7 @@ if ($_GET){
    		die('Invalid query: ' . mysql_error());
 	}
 	
-	$output .= "<p>Your secret is safe with us…</p>";
+	$output .= "<p>Your secret is safe with us…</p>$insert_query";
 	
 	} else {
 
