@@ -32,7 +32,7 @@ if ($_GET){
    		die('Invalid query: ' . mysql_error());
 	}
 	
-	$output .= "<p>Your secret is safe with us…</p>$insert_query";
+	$output .= "<p>Your secret is safe with us…</p>";
 	
 	} else {
 
