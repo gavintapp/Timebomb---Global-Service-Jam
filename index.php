@@ -6,14 +6,14 @@ include('form.php');
 
 $output = '<div role="main">';
 
-if ($_GET){
+if ($_POST){
 	
-	$secret = $_GET['secret']; 
-	$notify = $_GET['email'];
-	$release_date = $_GET['date'];
-	$website = $_GET['website'];
-	if (isset($_GET['warn'])) {$warn = $_GET['warn'];} else {$warn = "";}
-	if (isset($_GET['remind'])) {$remind = $_GET['remind'];} else {$remind = "";}
+	$secret = mysql_real_escape_string($_POST['secret']); 
+	$notify = mysql_real_escape_string($_POST['email']);
+	$release_date = mysql_real_escape_string($_POST['date']);
+	$website = mysql_real_escape_string($_POST['website']);
+	if (isset($_POST['warn'])) {$warn = mysql_real_escape_string($_POST['warn']);} else {$warn = "";}
+	if (isset($_POST['remind'])) {$remind = mysql_real_escape_string($_POST['remind']);} else {$remind = "";}
 	
 	$insert_query = "insert into secrets (secret,notify,release_date, website, warn, remind) values ('".$secret."','".$notify."','".$release_date."','".$website."','".$warn."','".$remind."')";
 	
