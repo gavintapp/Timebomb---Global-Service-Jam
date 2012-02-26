@@ -52,8 +52,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; background: #333; color: #ff
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
+a { color: #fff; }
+a:visited { color: #eee; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
@@ -61,11 +61,12 @@ a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
 H1, H2, H1 a, H2 a, H1 a:visited, H2 a:visited { color: #fff;}
+H1 img {padding: 1em;}
 
 #main {max-width:700px; clear:both;}
 
 body #nav {position: absolute; top:0; right:0;}
-body #nav li {border: 1px solid; display: block; float: left; padding: 0 2em; background: #fff;}
+body #nav li { display: block; float: left; padding: 0 2em; }
 
 
 /* =============================================================================

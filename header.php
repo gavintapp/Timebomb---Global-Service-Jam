@@ -26,7 +26,7 @@ Desc: This is the header file included when each front end page is loaded. I loa
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Timebomb - Global Service Jam 2012</title>
+  <title>Ta-Dah - Global Service Jam 2012</title>
   <meta name="description" content="">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -48,7 +48,7 @@ Desc: This is the header file included when each front end page is loaded. I loa
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-<h1><a href="/">Timebomb</a></h1>
+<h1><a href="/"><img src="img/ta_dah-logo.png" alt="Ta-Dah"></a></h1>
 <div id="nav">
 	<ul>
 		<li><a href="/">Home</a></li>

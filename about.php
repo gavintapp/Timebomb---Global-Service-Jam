@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 
 <div role="main" id="main" >
-<h2>About Timebomb</h2>
-<p>Timebomb was created at the Canberra Global Service Jam in 2012 over the course of three days. 
+<h2>About Ta-Dah</h2>
+<p>Ta-Dah was created at the Canberra Global Service Jam in 2012 over the course of three days. 
 	It was inspired by the theme for 2012 of "Hidden Treasure".</p>
 
 <p>We explored a lot of ideas about what "Hidden Treasure" might be - and talked about ideas and information as a kind of treasure.
@@ -41,6 +41,21 @@ wide range of possible uses when it is considered as a platform.</p>
 	use case for a child is different than a journalist protecting sources</p>
 <p>Commercial value could be acheived through charging a fee if a secret needs to be stored for more than three months. Given the 
 	possible use for activists, journalists, whistleblowers etc - there may also be a possibility of a philanthropic backer.</p>
+
+<h2>Issues</h2>
+<ul>
+	<li>Ecryption - needs to be really strong, given that over time capacity to break codes will increase. In fact, once quantum 
+	computing arrives, all bets will be off.</li>
+	<li>Lifespan - some secrets need to be kept for a really long time. But storing information over a long period of time is 
+		challenging. How do we manage the size of the information being stored? How do we migrate data from one medium to another
+		when new technology arrives?</li>
+	<li>Legal - once the service is used for something controversial - how do we protect against legal requests to access stored
+		 information?</li>
+	<li>Security - over time the service will build a profile, and become a target for hackers - whether they are seeking a 
+		challenge, or hoping to access the secret information.</li>
+	<li>How do you secure funding - for something like this that might run for a hundred years?</li?
+</ul>
+		
 
 
 </div>
