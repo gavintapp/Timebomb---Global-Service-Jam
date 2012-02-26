@@ -63,6 +63,10 @@ a:hover, a:active { outline: 0; }
 H1, H2, H1 a, H2 a, H1 a:visited, H2 a:visited { color: #fff;}
 H1 img {padding: 1em;}
 
+@media screen and (max-width: 480px) {
+  H1 img {width:400px; height: auto;}
+}
+
 #main {max-width:700px; clear:both;}
 
 body #nav {position: absolute; top:0; right:0;}
