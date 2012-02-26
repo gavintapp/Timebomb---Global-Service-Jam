@@ -20,6 +20,7 @@ $form = <<<EOD
 <form action="{$_SERVER['PHP_SELF']}" method="post"> 
 		<label for="secret">My secret is?</label> 
 		<textarea rows="4" cols="50" name="secret" placeholder="Luke, I am your father." required ></textarea>
+		<input type="file" name="file">
 		
 		<label for="email">Send to:</label> 
 		<input type="email" name="email" required placeholder="luke@rebels.com" />
@@ -27,7 +28,7 @@ $form = <<<EOD
 		<label for="date">on this date:</label> 
 		<input type="text" name="date"  />
 
-		<label for="warn">Do you want to let the receiver know there is a secret?:</label> 
+		<!-- <label for="warn">Do you want to let the receiver know there is a secret?:</label> 
 		<input type="checkbox" name="warn" />
 
 		<label for="remind">Remind me 30 days before the release date? (handy if you might change your mind or need a postponement)</label> 
@@ -35,6 +36,7 @@ $form = <<<EOD
 		
 		<label for="website">Public URL for this secret? (only works after release date):</label> 
 		<input type="url" name="website" required readonly value="http://www.example.com" />
+		-->
 	
 		<input type="submit" value="Hide your treasure!" />
 			</form>

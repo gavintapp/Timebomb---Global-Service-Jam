@@ -36,6 +36,8 @@ html, button, input, select, textarea { font-family: sans-serif; color: #fff; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; background: #333; color: #fff;}
 
+
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
@@ -58,8 +60,12 @@ a:focus { outline: thin dotted; }
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
 
-H1 a { color: #fff; }
-H1 a:visited { color: #fff; }
+H1, H2, H1 a, H2 a, H1 a:visited, H2 a:visited { color: #fff;}
+
+#main {max-width:700px; clear:both;}
+
+body #nav {position: absolute; top:0; right:0;}
+body #nav li {border: 1px solid; display: block; float: left; padding: 0 2em; background: #fff;}
 
 
 /* =============================================================================
@@ -272,6 +278,8 @@ td { vertical-align: top; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
+
+
 
 
 
