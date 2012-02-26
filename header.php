@@ -26,7 +26,7 @@ Desc: This is the header file included when each front end page is loaded. I loa
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
+  <title>Timebomb - Global Service Jam 2012</title>
   <meta name="description" content="">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
