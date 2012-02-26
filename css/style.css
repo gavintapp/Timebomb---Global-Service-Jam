@@ -64,7 +64,7 @@ H1, H2, H1 a, H2 a, H1 a:visited, H2 a:visited { color: #fff;}
 H1 img {padding: 1em;}
 
 @media screen and (max-width: 480px) {
-  H1 img {width:400px; height: auto; padding: 0.2em;}
+  H1 img {width:340px; height: auto; padding: 0.2em;}
 }
 
 #main {max-width:700px; clear:both;}

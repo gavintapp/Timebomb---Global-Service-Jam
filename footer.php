@@ -12,6 +12,12 @@ Desc: This is the footer file included when each front end page is loaded. I loa
 ?>
 
 <footer>
+	<div id="nav">
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="about.php">About</a></li>
+	</ul>
+</div>
 
 </footer>
 
